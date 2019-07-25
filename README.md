@@ -6,7 +6,7 @@ Wrappers (https://docs.royaleapi.com/#/wrappers) in multiple languages are also 
 
 If you are new to development using REST APIs, I recommend that you try out Postman, which provides many useful tools for your daily development needs.
 
-A simple console based Spring Starter Application consuming Top Player and Popular Player API endpoints using Spring Tool Suite 4 as an IDE and stroing data in MongoDB locally.
+A simple console based Spring Starter Application consuming Top Player and Popular Player API endpoints using Spring Tool Suite 4 as an IDE and storing data in MongoDB locally.
 
 For all beginners/semi-pro, this is perfect repository to start-off with a spring starter application describing how to consume API endpoints using RestTemplate. To consume any API endpoints of Royale API, you need token for authentication. So, I have taken care of the same using HttpHeaders.
 
