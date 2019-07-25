@@ -1,6 +1,10 @@
 # pro-clash_royale_api
 
-UseCase: - An Employee Management System is designed to simplify the process of record maintenance of employees in an organisation. It helps in managing the information of employees for HR functions. In general, EMS is a part of a comprehensive Human Resource Management System. Most modern companies use computers to collect this information, making their system more accurate and problem-free. A database is often used to collect the information required.
+Intro: - RoyaleAPI, the unofficial public API for Clash Royale! You can use this API to access Clash Royale API endpoints, which provides real-time information about players, clans, clan wars, tournaments and many more. You can see implementations of this API in Showcase (https://docs.royaleapi.com/#/showcase) by third-party developers and on their web site: https://royaleapi.com
+
+Wrappers (https://docs.royaleapi.com/#/wrappers) in multiple languages are also available.
+
+If you are new to development using REST APIs, I recommend that you try out Postman, which provides many useful tools for your daily development needs.
 
 Employee Management System as a REST Service using Spring Tool Suite 4 as an IDE.
 
