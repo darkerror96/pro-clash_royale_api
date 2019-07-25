@@ -1,6 +1,6 @@
 # pro-clash_royale_api
 
-Intro: - RoyaleAPI, the unofficial public API for Clash Royale! You can use this API to access Clash Royale API endpoints, which provides real-time information about players, clans, clan wars, tournaments and many more. You can see implementations of this API in Showcase (https://docs.royaleapi.com/#/showcase) by third-party developers and on their web site: https://royaleapi.com
+RoyaleAPI, the unofficial public API for Clash Royale! You can use this API to access Clash Royale API endpoints, which provides real-time information about players, clans, clan wars, tournaments and many more. You can see implementations of this API in Showcase (https://docs.royaleapi.com/#/showcase) by third-party developers and on their web site: https://royaleapi.com
 
 Wrappers (https://docs.royaleapi.com/#/wrappers) in multiple languages are also available.
 
