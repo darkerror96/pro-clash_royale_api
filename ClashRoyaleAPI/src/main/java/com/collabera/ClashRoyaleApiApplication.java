@@ -32,7 +32,10 @@ public class ClashRoyaleApiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjczNSwiaWRlbiI6IjUxMTYwODcwNzg0MzQ4OTgwMyIsIm1kIjp7fSwidHMiOjE1NjI3Njk1NDQxNTF9.9WMrd4WtSd53exiaIE40pAH1_aapQLE3jU5t6lG2LQs";
+		// To get token, visit https://docs.royaleapi.com/#/authentication
+		// Join Royale API Discord Server
+		// Ask for token from Royale API Bot
+		String token = "";
 		RestTemplate restTemplate = new RestTemplate();
 
 		HttpHeaders headers = new HttpHeaders();
@@ -59,7 +62,8 @@ public class ClashRoyaleApiApplication implements CommandLineRunner {
 
 		playerRepo.deleteAll();
 
-		String playersTag[] = { "9QLQC08V", "PQJ2Y82U2", "P89GLRYY" };
+		// Player Tag to be filled up
+		String playersTag[] = { "", "", "" };
 		playerRepo.saveAll(cmp.comparePlayersDetails(api.getPlayersDetails(playersTag)));
 
 		cmp.printPlayerRank();
