@@ -10,7 +10,7 @@ A simple console based Spring Starter Application consuming Top Player and Popul
 
 For all beginners/semi-pro, this is perfect repository to start-off with a spring starter application describing how to consume API endpoints using RestTemplate. To consume any API endpoints of Royale API, you need token for authentication. So, I have taken care of the same using HttpHeaders.
 
-I have made Daemon thread which makes API call every 5 seconds to get real-time information and then store it into MongoDB locally. I have used Spring Data MongoDB Repository which removes much of the boiler plate code.
+I have made Daemon thread which makes API call every 5 seconds to get real-time information and then store it into MongoDB locally. I have used Spring Data MongoDB Repository which removes most of the boiler plate code required to connect to MongoDB .
 
 I have also added functionality which displays Players Ranking based upon number of games won, draw and lost. Basically, you can provide Players Tag and all that players rankings will be displayed and updated every 5 seconds.
 
