@@ -1,17 +1,11 @@
 package com.collabera.model;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
 /**
  * @author rutpatel
  *
  */
-@Document(value = "Player")
 public class Player {
 
-	@Id
-	String id;
 	String tag;
 	String name;
 	int trophies;
