@@ -13,4 +13,5 @@ import com.collabera.model.Player;
  */
 public interface PlayerRepo extends MongoRepository<Player, String> {
 
+	
 }
